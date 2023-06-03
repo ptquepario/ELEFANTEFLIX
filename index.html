@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ELEFANTEFLIX</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-top: 50px;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-200px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .logo {
+      animation: fadeInOut 2s infinite;
+      width: 300px;
+      margin-top: -50px;
+      margin-bottom: -150px;
+    }
+
+    @keyframes fadeInOut {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .profiles {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .profile {
+      background-color: #0066cc;
+      color: #fff;
+      width: 200px;
+      height: 250px;
+      border-radius: 10px;
+      margin: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      animation: scaleIn 0.5s ease-in-out;
+    }
+
+    @keyframes scaleIn {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .profile img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="loader">
+    <img src="Checklist Relaxar Fim de Semana Instagram Post.png" alt="ELEFANTEFLIX Logo" class="logo">
+    <h1>Bem-vindo, cornos</h1>
+  </div>
+
+  <div class="profiles">
+    <div class="profile">
+      <img src="IMG_5043.jpg" alt="Perfil 1">
+      <h2>Perfil 1</h2>
+      <p>Descrição do perfil 1</p>
+    </div>
+
+    <div class="profile">
+      <img src="perfil2.jpg" alt="Perfil 2">
+      <h2>Perfil 2</h2>
+      <p>Descrição do perfil 2</p>
+    </div>
+
+    <div class="profile">
+      <img src="perfil3.jpg" alt="Perfil 3">
+      <h2>Perfil 3</h2>
+      <p>Descrição do perfil 3</p>
+    </div
